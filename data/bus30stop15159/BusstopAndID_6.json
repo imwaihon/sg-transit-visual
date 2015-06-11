@@ -1,0 +1,21 @@
+{
+    "BusStopID": "15159", 
+    "Services": [
+        {
+            "NextBus": {
+                "EstimatedArrival": "2015-06-11T07:48:12+00:00", 
+                "Feature": "WAB", 
+                "Load": "Seats Available"
+            }, 
+            "Operator": "SBST", 
+            "ServiceNo": "30", 
+            "Status": "In Operation", 
+            "SubsequentBus": {
+                "EstimatedArrival": "2015-06-11T07:52:28+00:00", 
+                "Feature": "WAB", 
+                "Load": "Seats Available"
+            }
+        }
+    ], 
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrival/@Element"
+}
