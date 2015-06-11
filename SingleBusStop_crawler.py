@@ -42,7 +42,7 @@ if __name__=="__main__":
         jsonObj = json.loads(content)
         print json.dumps(jsonObj, sort_keys=True, indent=4)
             #Save result to file
-        with open("Bus30At1519" + str(i) + ".json","w") as outfile: #Saving jsonObj["d"]
+        with open("Bus30At15191_" + str(i) + ".json","w") as outfile: #Saving jsonObj["d"]
             json.dump(jsonObj, outfile, sort_keys=True, indent=4, ensure_ascii=False)
         # 1 minute interval
         time.sleep(60.0)
